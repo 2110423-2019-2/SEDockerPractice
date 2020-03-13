@@ -1,0 +1,25 @@
+{
+  "name": "users-service",
+  "version": "1.0.0",
+  "description": "Basic service for retrieving user information from the directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -R spec **/*.spec.js",
+    "debug": "node-debug index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^7.1.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  }
+}
